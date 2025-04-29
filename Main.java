@@ -1,10 +1,10 @@
 import java.util.Date;
 
-class Student {
+public class Main {
     String name;
     Date dob;
 
-    Student(String name, Date dob) {
+    Main(String name, Date dob) {
         this.name = name;
         this.dob = dob;
     }
@@ -20,7 +20,7 @@ class Student {
 
     public static void main(String[] args) {
         Date dob = new Date(102, 0, 1);
-        Student student = new Student("Ram", dob);
+        Main student = new Main("Ram", dob);
         student.displayInfo();
     }
 }
