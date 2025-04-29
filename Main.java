@@ -17,9 +17,7 @@ class Student {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         Date dob = new Date(102, 0, 1);
         Student student = new Student("Ram", dob);
